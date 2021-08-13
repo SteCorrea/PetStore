@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d75f5f24-282f-4ba1-a580-40f51d0c0ad9" name="Changes" comment="Completei o script de AlterarPet PUT">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d75f5f24-282f-4ba1-a580-40f51d0c0ad9" name="Changes" comment="Inclusao do PUT para incluirUsuario" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,12 +127,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Pet.incluirPet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="User" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;petstore.Pet.incluirPet&quot;" />
+        <option name="scriptParameters" value="--tests &quot;petstore.User&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -174,10 +172,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.User.incluirUser" />
+        <item itemvalue="Gradle.User" />
         <item itemvalue="Gradle.Pet.excluirPet" />
         <item itemvalue="Gradle.Pet.alterarPet" />
         <item itemvalue="Gradle.Pet.consultarPet" />
-        <item itemvalue="Gradle.Pet.incluirPet" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628815240433</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Inclusao do PUT para incluirUsuario">
+      <created>1628893075789</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628893075789</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +251,7 @@
     <MESSAGE value="Completei o script de incluirPet POST" />
     <MESSAGE value="Completei o script de consultarPet GET" />
     <MESSAGE value="Completei o script de AlterarPet PUT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completei o script de AlterarPet PUT" />
+    <MESSAGE value="Inclusao do PUT para incluirUsuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inclusao do PUT para incluirUsuario" />
   </component>
 </project>
