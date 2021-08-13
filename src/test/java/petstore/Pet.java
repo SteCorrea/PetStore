@@ -72,6 +72,25 @@ public class Pet {
         System.out.println("O token é " + token);
 
     }
+    // Alterar - Update - PUT
+    @Test(priority = 3)
+    public void alterarPet() throws IOException {
+       String jsonBody = LerJson("db/pet2.json");
+
+       given()
+               .contentType("application/json")
+               .log().all()
+               .body(jsonBody)
+       .when()
+               .put(uri) // nome do metodo, vai passar o endereco
+       .then()
+               .log().all()
+               .statusCode(200)
+               .body("name", is ("BobCesa"))
+               .body("status", is ("sold"))
+
+       ;
+    }
 
 
 

@@ -1,0 +1,18 @@
+{
+  "id": 201608210505,
+  "category": {
+    "id": 1,
+    "name": "STE1921ZI"
+  },
+  "name": "BobCesa",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 12082021,
+      "name": "SemanaDoTeste"
+    }
+  ],
+  "status": "sold"
+}
