@@ -52,7 +52,7 @@ public class Pet {
     // Consultar - Read - Get
     @Test(priority = 2)
     public void consultarPet(){
-        String petId = "201608210505";
+        String petId = "201608210515";
 
         String token =
         given()
@@ -90,6 +90,25 @@ public class Pet {
                .body("status", is ("sold"))
 
        ;
+    }
+
+    // Apagar - Delete -
+    @Test(priority = 4)
+    public void excluirPet(){
+        String petId = "201608210515";
+
+        given()
+                .contentType("application/json")
+                .log().all()
+        .when()
+                .delete(uri + "/" + petId)
+        .then()
+                .log().all()
+                .statusCode(200)
+                .body("code", is (200))
+                .body("type", is("unknown"))
+                .body("message", is (petId))
+        ;
     }
 
 

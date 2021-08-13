@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d75f5f24-282f-4ba1-a580-40f51d0c0ad9" name="Changes" comment="Completei o script de consultarPet GET">
-      <change afterPath="$PROJECT_DIR$/db/pet2.json" afterDir="false" />
+    <list default="true" id="d75f5f24-282f-4ba1-a580-40f51d0c0ad9" name="Changes" comment="Completei o script de AlterarPet PUT">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pet1.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/pet1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/petstore/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/petstore/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,28 +72,7 @@
       <recent name="C:\Users\stefa\IdeaProjects\PetStore\db" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PetStore [test]">
-    <configuration name="Pet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;petstore.Pet&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Pet.excluirPet">
     <configuration name="PetStore [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -152,6 +136,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Pet.excluirPet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;petstore.Pet.excluirPet&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Pet.incluirPet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -175,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PetStore [test]" />
+        <item itemvalue="Gradle.Pet.excluirPet" />
         <item itemvalue="Gradle.Pet.alterarPet" />
         <item itemvalue="Gradle.Pet.consultarPet" />
         <item itemvalue="Gradle.Pet.incluirPet" />
-        <item itemvalue="Gradle.Pet" />
+        <item itemvalue="Gradle.PetStore [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628814122872</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completei o script de AlterarPet PUT">
+      <created>1628815240433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628815240433</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +252,7 @@
     <MESSAGE value="Criado metodo do teste para incluir um pet" />
     <MESSAGE value="Completei o script de incluirPet POST" />
     <MESSAGE value="Completei o script de consultarPet GET" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completei o script de consultarPet GET" />
+    <MESSAGE value="Completei o script de AlterarPet PUT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completei o script de AlterarPet PUT" />
   </component>
 </project>
