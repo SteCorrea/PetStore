@@ -8,6 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.is;
 
 public class User {
 
@@ -29,6 +30,24 @@ public class User {
         .then()
                 .log().all()
                 .statusCode(200)
+                .body("phone", is ("2124240303"))
         ;
     }
+    @Test
+    public void consultarUser(){
+        String userID = "stefanycorrea";
+
+        given()
+                .contentType("application/json")
+                .log().all()
+        .when()
+                .get(uri + "/" + userID )
+        .then()
+                .log().all()
+                .statusCode(200)
+                .body("phone", is("2124240303"))
+        ;
+    }
+
+
 }
